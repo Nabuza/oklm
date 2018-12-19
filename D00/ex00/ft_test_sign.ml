@@ -16,3 +16,5 @@ let ft_test_sign n =
     else
       print_endline "positive" ;;
 ft_test_sign (-5);;
+ft_test_sign (5);;
+ft_test_sign (-5);;
