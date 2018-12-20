@@ -1,8 +1,7 @@
 let ft_print_alphabet () =
-        let n = int_of_char 'a' in 
-        let b = int_of_char 'z' in 
+        let n = 97 in 
         let rec alpha n =
-                if n <= b
+                if n <= 122
                 then let ok = char_of_int n in
                 print_char ok;
                 alpha (n + 1)
